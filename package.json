@@ -4,8 +4,8 @@
   "description": "Prova di Node, prima stampa di Hello world",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "watch": "node --watch index.js"
+    "start": "node --env-file=.env index.js",
+    "watch": "node --watch --env-file=.env index.js"
   },
   "keywords": [],
   "author": "Simone Palmisciano",
@@ -13,6 +13,8 @@
   "packageManager": "pnpm@10.33.3",
   "type": "module",
   "dependencies": {
-    "cowsayjs": "^2.0.0"
+    "@langchain/anthropic": "^1.4.0",
+    "cowsayjs": "^2.0.0",
+    "langchain": "^1.4.1"
   }
 }
