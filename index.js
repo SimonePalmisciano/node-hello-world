@@ -1,7 +1,8 @@
-import {cowsay} from "cowsayjs";
+import { cowsay } from "cowsayjs";
 
 console.log('hello world');
 
 const valoriPassatiDaCmd = process.argv;
+const outputDrago = cowsay("sono il fantasma formaggino", {cow: 'stegosaurus'})
 
-console.log(cowsay('hello world detto da una muccona'));
+console.log(outputDrago)
