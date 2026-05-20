@@ -4,12 +4,15 @@
   "description": "Prova di Node, prima stampa di Hello world",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js",
-    "watch" : "node --watch index.js"
+    "start": "node index.js",
+    "watch": "node --watch index.js"
   },
   "keywords": [],
   "author": "Simone Palmisciano",
   "license": "ISC",
   "packageManager": "pnpm@10.33.3",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "cowsayjs": "^2.0.0"
+  }
 }
